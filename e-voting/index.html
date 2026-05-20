@@ -1,373 +1,578 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="TUKIO PRO E-Voting — Organisez vos concours, awards et compétitions avec un système de vote payant sécurisé, transparent et monétisé.">
-  <meta name="keywords" content="e-voting payant, concours en ligne, awards digitaux, vote sécurisé, compétitions, challenges">
-  <title>E-Voting Payant — TUKIO PRO</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <header class="navbar" role="banner">
-    <nav class="nav-container" aria-label="Navigation principale">
-      <a href="../home/index.html" class="nav-logo" aria-label="TUKIO PRO — Accueil">
-        <span class="logo-mark">T</span>
-        <span class="logo-text">TUKIO <em>PRO</em></span>
-      </a>
-      <ul class="nav-links" role="list">
-        <li><a href="../home/index.html" class="nav-link">Accueil</a></li>
-        <li><a href="../e-voting/index.html" class="nav-link active" aria-current="page">E-Voting</a></li>
-        <li><a href="../crowdfunding/index.html" class="nav-link">Crowdfunding</a></li>
-        <li><a href="../corporate-ticketing/index.html" class="nav-link">Corporate</a></li>
-        <li><a href="../private-ticketing/index.html" class="nav-link">Événements Privés</a></li>
-      </ul>
-      <div class="nav-actions">
-        <a href="#contact" class="btn-primary">Lancer un vote</a>
-        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </button>
-      </div>
-    </nav>
-    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
-      <ul class="mobile-nav-links" role="list">
-        <li><a href="../home/index.html" class="mobile-nav-link">Accueil</a></li>
-        <li><a href="../e-voting/index.html" class="mobile-nav-link">E-Voting</a></li>
-        <li><a href="../crowdfunding/index.html" class="mobile-nav-link">Crowdfunding</a></li>
-        <li><a href="../corporate-ticketing/index.html" class="mobile-nav-link">Corporate</a></li>
-        <li><a href="../private-ticketing/index.html" class="mobile-nav-link">Événements Privés</a></li>
-        <li><a href="#contact" class="mobile-nav-link mobile-cta">Lancer un vote</a></li>
-      </ul>
-    </div>
-  </header>
-
-  <main id="main-content">
-
-    <!-- HERO MODULE -->
-    <section class="module-hero" aria-labelledby="hero-title">
-      <div class="module-hero-bg"></div>
-      <div class="module-hero-container">
-        <div class="module-tag">Module 01</div>
-        <h1 class="module-hero-title" id="hero-title">
-          E-Voting<br>
-          <span class="accent">Payant & Sécurisé.</span>
-        </h1>
-        <p class="module-hero-subtitle">
-          Transformez vos concours, awards et challenges en événements digitaux monétisés. Chaque vote est sécurisé, tracé et auditable. Vous gardez le contrôle total — des résultats comme des revenus.
-        </p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn-hero-primary">Créer mon concours</a>
-          <a href="#features" class="btn-hero-secondary">Voir les fonctionnalités</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- USECASES -->
-    <section class="usecases" aria-labelledby="usecases-title">
-      <div class="section-container">
-        <div class="section-header">
-          <span class="section-eyebrow">Pour qui ?</span>
-          <h2 class="section-title" id="usecases-title">Infiniment flexible.</h2>
-          <p class="section-desc">De la compétition musicale aux awards d'entreprise, TUKIO PRO s'adapte à chaque type de concours.</p>
-        </div>
-        <div class="usecases-grid">
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🏆</div>
-            <h3>Awards & Distinctions</h3>
-            <p>Organisez vos cérémonies de prix annuelles avec un vote public sécurisé et une transparence totale sur les résultats.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🎵</div>
-            <h3>Talents & Compétitions</h3>
-            <p>Concours de chant, de danse, de photographie — permettez au public de soutenir financièrement ses candidats favoris.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🏢</div>
-            <h3>Challenges Corporate</h3>
-            <p>Innovathons, hackathons internes, élections de collaborateur du mois — gamifiez vos processus RH et engagement.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🌍</div>
-            <h3>Compétitions Régionales</h3>
-            <p>Élisez le meilleur restaurant, le plus beau marché, le commerçant de l'année — mobilisez votre communauté locale.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🎓</div>
-            <h3>Concours Académiques</h3>
-            <p>Projets d'étudiants, meilleures thèses, concours d'éloquence — donnez de la visibilité aux talents émergents.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🤝</div>
-            <h3>Votes Associatifs</h3>
-            <p>AG, élections internes, sondages décisionnels — modernisez la gouvernance de votre association ou collectif.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="features" id="features" aria-labelledby="features-title">
-      <div class="section-container">
-        <div class="section-header">
-          <span class="section-eyebrow">Fonctionnalités</span>
-          <h2 class="section-title" id="features-title">Tout ce dont vous<br>avez besoin.</h2>
-        </div>
-        <div class="features-list">
-
-          <div class="feature-row reveal">
-            <div class="feature-content">
-              <span class="feature-number" aria-hidden="true">01</span>
-              <h3 class="feature-title">Votes liés au paiement</h3>
-              <p class="feature-desc">Chaque vote nécessite un paiement validé. Fini les bourrages d'urnes : notre système garantit un vote = une transaction unique, vérifiable et horodatée.</p>
-            </div>
-            <div class="feature-visual" aria-hidden="true">
-              <div class="feature-mock">
-                <div class="mock-line mock-line--gold"></div>
-                <div class="mock-line"></div>
-                <div class="mock-line mock-line--sm"></div>
-                <div class="mock-btn">Voter · 500 FCFA</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="feature-row feature-row--reverse reveal">
-            <div class="feature-content">
-              <span class="feature-number" aria-hidden="true">02</span>
-              <h3 class="feature-title">Résultats en temps réel</h3>
-              <p class="feature-desc">Suivez le classement en direct depuis votre tableau de bord. Partagez un lien public pour que votre audience vote et découvre les résultats au fil des minutes.</p>
-            </div>
-            <div class="feature-visual" aria-hidden="true">
-              <div class="feature-mock">
-                <div class="mock-bar-chart">
-                  <div class="mock-bar" style="height:75%">
-                    <span>1er · 75%</span>
-                  </div>
-                  <div class="mock-bar mock-bar--secondary" style="height:52%">
-                    <span>2e · 52%</span>
-                  </div>
-                  <div class="mock-bar mock-bar--secondary" style="height:38%">
-                    <span>3e · 38%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="feature-row reveal">
-            <div class="feature-content">
-              <span class="feature-number" aria-hidden="true">03</span>
-              <h3 class="feature-title">Rapport d'audit complet</h3>
-              <p class="feature-desc">À la clôture, recevez un rapport détaillé : liste des votes, montants collectés, horodatage, répartition géographique. Exportable en PDF et Excel.</p>
-            </div>
-            <div class="feature-visual" aria-hidden="true">
-              <div class="feature-mock">
-                <div class="mock-stat-row">
-                  <span class="mock-label">Votes totaux</span>
-                  <span class="mock-value mock-value--gold">3 847</span>
-                </div>
-                <div class="mock-stat-row">
-                  <span class="mock-label">Revenus générés</span>
-                  <span class="mock-value">1 923 500 F</span>
-                </div>
-                <div class="mock-stat-row">
-                  <span class="mock-label">Pays participants</span>
-                  <span class="mock-value">12</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- STATS -->
-    <section class="stats-section" aria-label="Statistiques e-voting">
-      <div class="stats-bg"></div>
-      <div class="section-container">
-        <div class="stats-grid" role="list">
-          <div class="stat-card" role="listitem">
-            <span class="stat-number" data-target="850">0</span><span class="stat-suffix">+</span>
-            <p class="stat-label">Concours organisés</p>
-          </div>
-          <div class="stat-card" role="listitem">
-            <span class="stat-number" data-target="1200000">0</span>
-            <p class="stat-label">Votes traités</p>
-          </div>
-          <div class="stat-card" role="listitem">
-            <span class="stat-number" data-target="99">0</span><span class="stat-suffix">%</span>
-            <p class="stat-label">Disponibilité de la plateforme</p>
-          </div>
-          <div class="stat-card" role="listitem">
-            <span class="stat-number" data-target="28">0</span><span class="stat-suffix">s</span>
-            <p class="stat-label">Durée moyenne de vote</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TESTIMONIAL -->
-    <section class="testimonials" aria-label="Témoignages e-voting">
-      <div class="section-container">
-        <div class="section-header">
-          <span class="section-eyebrow">Ils l'ont fait</span>
-          <h2 class="section-title">Organisateurs qui nous font confiance.</h2>
-        </div>
-        <div class="testimonials-grid">
-          <blockquote class="testimonial-card reveal">
-            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
-            <p class="testimonial-text">"Plus de 5 000 votes en 72 heures pour notre concours de jeunes talents. Zéro problème technique, zéro fraude. TUKIO PRO a dépassé toutes nos attentes."</p>
-            <footer class="testimonial-author">
-              <div class="author-avatar">JN</div>
-              <div class="author-info">
-                <cite class="author-name">Jean Nkosi</cite>
-                <span class="author-role">Organisateur, Young Talent Awards</span>
-              </div>
-            </footer>
-          </blockquote>
-          <blockquote class="testimonial-card testimonial-card--featured reveal">
-            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
-            <p class="testimonial-text">"Le système de paiement intégré Mobile Money a tout changé. Nos participants au Cameroun, en Côte d'Ivoire et au Sénégal ont tous pu voter facilement."</p>
-            <footer class="testimonial-author">
-              <div class="author-avatar">PD</div>
-              <div class="author-info">
-                <cite class="author-name">Patricia Diallo</cite>
-                <span class="author-role">Directrice, Africa Business Awards</span>
-              </div>
-            </footer>
-          </blockquote>
-          <blockquote class="testimonial-card reveal">
-            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
-            <p class="testimonial-text">"Le rapport d'audit final était impeccable. Nous avons pu présenter les résultats à nos sponsors avec une crédibilité irréprochable."</p>
-            <footer class="testimonial-author">
-              <div class="author-avatar">RT</div>
-              <div class="author-info">
-                <cite class="author-name">Romain Toure</cite>
-                <span class="author-role">Président, Fédération Nationale</span>
-              </div>
-            </footer>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="faq" aria-labelledby="faq-title">
-      <div class="section-container">
-        <div class="section-header">
-          <span class="section-eyebrow">FAQ</span>
-          <h2 class="section-title" id="faq-title">Vos questions sur l'e-voting.</h2>
-        </div>
-        <div class="faq-list">
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" aria-controls="faq-ev1">
-              Comment empêcher qu'une personne vote plusieurs fois ?
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer" id="faq-ev1" hidden>
-              <p>Chaque vote est conditionné à une transaction de paiement unique. Le numéro de téléphone ou l'identifiant de paiement est vérifié à chaque tentative. Un système de limite configurable (1 à N votes par personne) est disponible selon vos règles de concours.</p>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" aria-controls="faq-ev2">
-              Quel est le montant minimum d'un vote payant ?
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer" id="faq-ev2" hidden>
-              <p>Vous définissez librement le prix du vote, à partir de 100 FCFA (ou équivalent devise). Vous pouvez également proposer des packs de votes (ex : 5 votes pour 1 000 FCFA) pour maximiser l'engagement et les revenus.</p>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" aria-controls="faq-ev3">
-              Combien de candidats puis-je inscrire dans un concours ?
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer" id="faq-ev3" hidden>
-              <p>Il n'y a pas de limite au nombre de candidats. Que vous ayez 5 ou 500 participants, la plateforme gère tout avec la même fluidité. Chaque profil de candidat est personnalisable avec photo, bio et liens vers les réseaux sociaux.</p>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" aria-controls="faq-ev4">
-              Quand est-ce que je reçois les revenus du vote ?
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer" id="faq-ev4" hidden>
-              <p>Les reversements sont effectués dans les 48 à 72h suivant la clôture du concours, après déduction de notre commission. Un relevé détaillé vous est transmis par email avec chaque virement.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="cta-section" id="contact" aria-labelledby="cta-title">
-      <div class="cta-bg"></div>
-      <div class="section-container">
-        <div class="cta-content">
-          <span class="section-eyebrow section-eyebrow--gold">Prêt à lancer ?</span>
-          <h2 class="cta-title" id="cta-title">Votre concours,<br>en 10 minutes.</h2>
-          <p class="cta-desc">Rejoignez 850+ organisateurs qui ont choisi TUKIO PRO pour leurs compétitions et awards.</p>
-          <div class="cta-form" role="form" aria-label="Formulaire de contact e-voting">
-            <label for="cta-email" class="sr-only">Votre email professionnel</label>
-            <input type="email" id="cta-email" name="email" placeholder="Votre email professionnel" class="cta-input" autocomplete="email">
-            <button type="submit" class="cta-submit">Créer mon concours</button>
-          </div>
-          <p class="cta-note">Configuration gratuite · Aucun abonnement mensuel</p>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer" role="contentinfo">
-    <div class="footer-container">
-      <div class="footer-brand">
-        <a href="../home/index.html" class="footer-logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TUKIO PRO E-Voting — Organisez vos concours, awards et compétitions avec un système de vote payant sécurisé, transparent et monétisé."
+    />
+    <meta
+      name="keywords"
+      content="e-voting payant, concours en ligne, awards digitaux, vote sécurisé, compétitions, challenges"
+    />
+    <title>E-Voting Payant — TUKIO PRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar" role="banner">
+      <nav class="nav-container" aria-label="Navigation principale">
+        <a
+          href="../index.html"
+          class="nav-logo"
+          aria-label="TUKIO PRO — Accueil"
+        >
           <span class="logo-mark">T</span>
           <span class="logo-text">TUKIO <em>PRO</em></span>
         </a>
-        <p class="footer-tagline">La plateforme événementielle<br>pensée pour l'Afrique et le monde.</p>
-      </div>
-      <nav class="footer-nav" aria-label="Footer">
-        <div class="footer-col">
-          <h3 class="footer-col-title">Modules</h3>
-          <ul role="list">
-            <li><a href="../e-voting/index.html" class="footer-link">E-Voting</a></li>
-            <li><a href="../crowdfunding/index.html" class="footer-link">Crowdfunding</a></li>
-            <li><a href="../corporate-ticketing/index.html" class="footer-link">Billetterie Corporate</a></li>
-            <li><a href="../private-ticketing/index.html" class="footer-link">Événements Privés</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h3 class="footer-col-title">Ressources</h3>
-          <ul role="list">
-            <li><a href="#" class="footer-link">FAQ</a></li>
-            <li><a href="#contact" class="footer-link">Contact</a></li>
-            <li><a href="#" class="footer-link">Documentation</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h3 class="footer-col-title">Légal</h3>
-          <ul role="list">
-            <li><a href="#" class="footer-link">Mentions légales</a></li>
-            <li><a href="#" class="footer-link">CGU</a></li>
-            <li><a href="#" class="footer-link">Confidentialité</a></li>
-          </ul>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html" class="nav-link">Accueil</a></li>
+          <li>
+            <a
+              href="../e-voting/index.html"
+              class="nav-link active"
+              aria-current="page"
+              >E-Voting</a
+            >
+          </li>
+          <li>
+            <a href="../crowdfunding/index.html" class="nav-link"
+              >Crowdfunding</a
+            >
+          </li>
+          <li>
+            <a href="../corporate-ticketing/index.html" class="nav-link"
+              >Corporate</a
+            >
+          </li>
+          <li>
+            <a href="../private-ticketing/index.html" class="nav-link"
+              >Événements Privés</a
+            >
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#contact" class="btn-primary">Lancer un vote</a>
+          <button
+            class="hamburger"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
         </div>
       </nav>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2025 TUKIO PRO. Tous droits réservés.</p>
-      <p>Module E-Voting — Sécurisé & Auditable</p>
-    </div>
-  </footer>
+      <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <ul class="mobile-nav-links" role="list">
+          <li><a href="../index.html" class="mobile-nav-link">Accueil</a></li>
+          <li>
+            <a href="../e-voting/index.html" class="mobile-nav-link"
+              >E-Voting</a
+            >
+          </li>
+          <li>
+            <a href="../crowdfunding/index.html" class="mobile-nav-link"
+              >Crowdfunding</a
+            >
+          </li>
+          <li>
+            <a href="../corporate-ticketing/index.html" class="mobile-nav-link"
+              >Corporate</a
+            >
+          </li>
+          <li>
+            <a href="../private-ticketing/index.html" class="mobile-nav-link"
+              >Événements Privés</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="mobile-nav-link mobile-cta"
+              >Lancer un vote</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
 
-  <script src="script.js"></script>
-</body>
+    <main id="main-content">
+      <!-- HERO MODULE -->
+      <section class="module-hero" aria-labelledby="hero-title">
+        <div class="module-hero-bg"></div>
+        <div class="module-hero-container">
+          <div class="module-tag">Module 01</div>
+          <h1 class="module-hero-title" id="hero-title">
+            E-Voting<br />
+            <span class="accent">Payant & Sécurisé.</span>
+          </h1>
+          <p class="module-hero-subtitle">
+            Transformez vos concours, awards et challenges en événements
+            digitaux monétisés. Chaque vote est sécurisé, tracé et auditable.
+            Vous gardez le contrôle total — des résultats comme des revenus.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-hero-primary">Créer mon concours</a>
+            <a href="#features" class="btn-hero-secondary"
+              >Voir les fonctionnalités</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- USECASES -->
+      <section class="usecases" aria-labelledby="usecases-title">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-eyebrow">Pour qui ?</span>
+            <h2 class="section-title" id="usecases-title">
+              Infiniment flexible.
+            </h2>
+            <p class="section-desc">
+              De la compétition musicale aux awards d'entreprise, TUKIO PRO
+              s'adapte à chaque type de concours.
+            </p>
+          </div>
+          <div class="usecases-grid">
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🏆</div>
+              <h3>Awards & Distinctions</h3>
+              <p>
+                Organisez vos cérémonies de prix annuelles avec un vote public
+                sécurisé et une transparence totale sur les résultats.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🎵</div>
+              <h3>Talents & Compétitions</h3>
+              <p>
+                Concours de chant, de danse, de photographie — permettez au
+                public de soutenir financièrement ses candidats favoris.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🏢</div>
+              <h3>Challenges Corporate</h3>
+              <p>
+                Innovathons, hackathons internes, élections de collaborateur du
+                mois — gamifiez vos processus RH et engagement.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🌍</div>
+              <h3>Compétitions Régionales</h3>
+              <p>
+                Élisez le meilleur restaurant, le plus beau marché, le
+                commerçant de l'année — mobilisez votre communauté locale.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🎓</div>
+              <h3>Concours Académiques</h3>
+              <p>
+                Projets d'étudiants, meilleures thèses, concours d'éloquence —
+                donnez de la visibilité aux talents émergents.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🤝</div>
+              <h3>Votes Associatifs</h3>
+              <p>
+                AG, élections internes, sondages décisionnels — modernisez la
+                gouvernance de votre association ou collectif.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="features" id="features" aria-labelledby="features-title">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-eyebrow">Fonctionnalités</span>
+            <h2 class="section-title" id="features-title">
+              Tout ce dont vous<br />avez besoin.
+            </h2>
+          </div>
+          <div class="features-list">
+            <div class="feature-row reveal">
+              <div class="feature-content">
+                <span class="feature-number" aria-hidden="true">01</span>
+                <h3 class="feature-title">Votes liés au paiement</h3>
+                <p class="feature-desc">
+                  Chaque vote nécessite un paiement validé. Fini les bourrages
+                  d'urnes : notre système garantit un vote = une transaction
+                  unique, vérifiable et horodatée.
+                </p>
+              </div>
+              <div class="feature-visual" aria-hidden="true">
+                <div class="feature-mock">
+                  <div class="mock-line mock-line--gold"></div>
+                  <div class="mock-line"></div>
+                  <div class="mock-line mock-line--sm"></div>
+                  <div class="mock-btn">Voter · 500 FCFA</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-row feature-row--reverse reveal">
+              <div class="feature-content">
+                <span class="feature-number" aria-hidden="true">02</span>
+                <h3 class="feature-title">Résultats en temps réel</h3>
+                <p class="feature-desc">
+                  Suivez le classement en direct depuis votre tableau de bord.
+                  Partagez un lien public pour que votre audience vote et
+                  découvre les résultats au fil des minutes.
+                </p>
+              </div>
+              <div class="feature-visual" aria-hidden="true">
+                <div class="feature-mock">
+                  <div class="mock-bar-chart">
+                    <div class="mock-bar" style="height: 75%">
+                      <span>1er · 75%</span>
+                    </div>
+                    <div
+                      class="mock-bar mock-bar--secondary"
+                      style="height: 52%"
+                    >
+                      <span>2e · 52%</span>
+                    </div>
+                    <div
+                      class="mock-bar mock-bar--secondary"
+                      style="height: 38%"
+                    >
+                      <span>3e · 38%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-row reveal">
+              <div class="feature-content">
+                <span class="feature-number" aria-hidden="true">03</span>
+                <h3 class="feature-title">Rapport d'audit complet</h3>
+                <p class="feature-desc">
+                  À la clôture, recevez un rapport détaillé : liste des votes,
+                  montants collectés, horodatage, répartition géographique.
+                  Exportable en PDF et Excel.
+                </p>
+              </div>
+              <div class="feature-visual" aria-hidden="true">
+                <div class="feature-mock">
+                  <div class="mock-stat-row">
+                    <span class="mock-label">Votes totaux</span>
+                    <span class="mock-value mock-value--gold">3 847</span>
+                  </div>
+                  <div class="mock-stat-row">
+                    <span class="mock-label">Revenus générés</span>
+                    <span class="mock-value">1 923 500 F</span>
+                  </div>
+                  <div class="mock-stat-row">
+                    <span class="mock-label">Pays participants</span>
+                    <span class="mock-value">12</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section class="stats-section" aria-label="Statistiques e-voting">
+        <div class="stats-bg"></div>
+        <div class="section-container">
+          <div class="stats-grid" role="list">
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" data-target="850">0</span
+              ><span class="stat-suffix">+</span>
+              <p class="stat-label">Concours organisés</p>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" data-target="1200000">0</span>
+              <p class="stat-label">Votes traités</p>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" data-target="99">0</span
+              ><span class="stat-suffix">%</span>
+              <p class="stat-label">Disponibilité de la plateforme</p>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" data-target="28">0</span
+              ><span class="stat-suffix">s</span>
+              <p class="stat-label">Durée moyenne de vote</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL -->
+      <section class="testimonials" aria-label="Témoignages e-voting">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-eyebrow">Ils l'ont fait</span>
+            <h2 class="section-title">
+              Organisateurs qui nous font confiance.
+            </h2>
+          </div>
+          <div class="testimonials-grid">
+            <blockquote class="testimonial-card reveal">
+              <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="testimonial-text">
+                "Plus de 5 000 votes en 72 heures pour notre concours de jeunes
+                talents. Zéro problème technique, zéro fraude. TUKIO PRO a
+                dépassé toutes nos attentes."
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">JN</div>
+                <div class="author-info">
+                  <cite class="author-name">Jean Nkosi</cite>
+                  <span class="author-role"
+                    >Organisateur, Young Talent Awards</span
+                  >
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote
+              class="testimonial-card testimonial-card--featured reveal"
+            >
+              <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="testimonial-text">
+                "Le système de paiement intégré Mobile Money a tout changé. Nos
+                participants au Cameroun, en Côte d'Ivoire et au Sénégal ont
+                tous pu voter facilement."
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">PD</div>
+                <div class="author-info">
+                  <cite class="author-name">Patricia Diallo</cite>
+                  <span class="author-role"
+                    >Directrice, Africa Business Awards</span
+                  >
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card reveal">
+              <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="testimonial-text">
+                "Le rapport d'audit final était impeccable. Nous avons pu
+                présenter les résultats à nos sponsors avec une crédibilité
+                irréprochable."
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">RT</div>
+                <div class="author-info">
+                  <cite class="author-name">Romain Toure</cite>
+                  <span class="author-role"
+                    >Président, Fédération Nationale</span
+                  >
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq" aria-labelledby="faq-title">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-eyebrow">FAQ</span>
+            <h2 class="section-title" id="faq-title">
+              Vos questions sur l'e-voting.
+            </h2>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-ev1"
+              >
+                Comment empêcher qu'une personne vote plusieurs fois ?
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" id="faq-ev1" hidden>
+                <p>
+                  Chaque vote est conditionné à une transaction de paiement
+                  unique. Le numéro de téléphone ou l'identifiant de paiement
+                  est vérifié à chaque tentative. Un système de limite
+                  configurable (1 à N votes par personne) est disponible selon
+                  vos règles de concours.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-ev2"
+              >
+                Quel est le montant minimum d'un vote payant ?
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" id="faq-ev2" hidden>
+                <p>
+                  Vous définissez librement le prix du vote, à partir de 100
+                  FCFA (ou équivalent devise). Vous pouvez également proposer
+                  des packs de votes (ex : 5 votes pour 1 000 FCFA) pour
+                  maximiser l'engagement et les revenus.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-ev3"
+              >
+                Combien de candidats puis-je inscrire dans un concours ?
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" id="faq-ev3" hidden>
+                <p>
+                  Il n'y a pas de limite au nombre de candidats. Que vous ayez 5
+                  ou 500 participants, la plateforme gère tout avec la même
+                  fluidité. Chaque profil de candidat est personnalisable avec
+                  photo, bio et liens vers les réseaux sociaux.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-ev4"
+              >
+                Quand est-ce que je reçois les revenus du vote ?
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" id="faq-ev4" hidden>
+                <p>
+                  Les reversements sont effectués dans les 48 à 72h suivant la
+                  clôture du concours, après déduction de notre commission. Un
+                  relevé détaillé vous est transmis par email avec chaque
+                  virement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section" id="contact" aria-labelledby="cta-title">
+        <div class="cta-bg"></div>
+        <div class="section-container">
+          <div class="cta-content">
+            <span class="section-eyebrow section-eyebrow--gold"
+              >Prêt à lancer ?</span
+            >
+            <h2 class="cta-title" id="cta-title">
+              Votre concours,<br />en 10 minutes.
+            </h2>
+            <p class="cta-desc">
+              Rejoignez 850+ organisateurs qui ont choisi TUKIO PRO pour leurs
+              compétitions et awards.
+            </p>
+            <div
+              class="cta-form"
+              role="form"
+              aria-label="Formulaire de contact e-voting"
+            >
+              <label for="cta-email" class="sr-only"
+                >Votre email professionnel</label
+              >
+              <input
+                type="email"
+                id="cta-email"
+                name="email"
+                placeholder="Votre email professionnel"
+                class="cta-input"
+                autocomplete="email"
+              />
+              <button type="submit" class="cta-submit">
+                Créer mon concours
+              </button>
+            </div>
+            <p class="cta-note">
+              Configuration gratuite · Aucun abonnement mensuel
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="../index.html" class="footer-logo">
+            <span class="logo-mark">T</span>
+            <span class="logo-text">TUKIO <em>PRO</em></span>
+          </a>
+          <p class="footer-tagline">
+            La plateforme événementielle<br />pensée pour l'Afrique et le monde.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <div class="footer-col">
+            <h3 class="footer-col-title">Modules</h3>
+            <ul role="list">
+              <li>
+                <a href="../e-voting/index.html" class="footer-link"
+                  >E-Voting</a
+                >
+              </li>
+              <li>
+                <a href="../crowdfunding/index.html" class="footer-link"
+                  >Crowdfunding</a
+                >
+              </li>
+              <li>
+                <a href="../corporate-ticketing/index.html" class="footer-link"
+                  >Billetterie Corporate</a
+                >
+              </li>
+              <li>
+                <a href="../private-ticketing/index.html" class="footer-link"
+                  >Événements Privés</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-col-title">Ressources</h3>
+            <ul role="list">
+              <li><a href="#" class="footer-link">FAQ</a></li>
+              <li><a href="#contact" class="footer-link">Contact</a></li>
+              <li><a href="#" class="footer-link">Documentation</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-col-title">Légal</h3>
+            <ul role="list">
+              <li><a href="#" class="footer-link">Mentions légales</a></li>
+              <li><a href="#" class="footer-link">CGU</a></li>
+              <li><a href="#" class="footer-link">Confidentialité</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 TUKIO PRO. Tous droits réservés.</p>
+        <p>Module E-Voting — Sécurisé & Auditable</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

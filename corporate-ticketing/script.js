@@ -22,6 +22,7 @@
       mobileMenu.setAttribute('aria-hidden', !isOpen);
       document.body.style.overflow = isOpen ? 'hidden' : '';
     });
+
     mobileMenu.querySelectorAll('.mobile-nav-link').forEach(link => {
       link.addEventListener('click', () => {
         hamburger.classList.remove('open');
@@ -44,6 +45,7 @@
           if (ans) ans.hidden = true;
         }
       });
+
       btn.setAttribute('aria-expanded', !isExpanded);
       const answer = document.getElementById(btn.getAttribute('aria-controls'));
       if (answer) answer.hidden = isExpanded;
@@ -55,6 +57,7 @@
     entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); } }),
     { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
   );
+
   document.querySelectorAll('.reveal, .usecase-card, .feature-row, .testimonial-card, .faq-item').forEach((el, i) => {
     el.classList.add('reveal');
     el.style.transitionDelay = `${(i % 3) * 0.08}s`;
@@ -79,6 +82,7 @@
     }),
     { threshold: 0.5 }
   );
+  
   document.querySelectorAll('.stat-number[data-target]').forEach(el => counterObs.observe(el));
 
   /* CTA form */

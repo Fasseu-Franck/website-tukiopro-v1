@@ -1,386 +1,632 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="TUKIO PRO Événements Privés — Mariages, anniversaires, baptêmes et cérémonies. Offrez à vos invités une expérience d'inscription sur mesure et mémorable.">
-  <meta name="keywords" content="billetterie mariage, gestion invités anniversaire, baptême, cérémonie privée, événement privé, carton d'invitation digital">
-  <title>Événements Privés — TUKIO PRO</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <header class="navbar" role="banner">
-    <nav class="nav-container" aria-label="Navigation principale">
-      <a href="../home/index.html" class="nav-logo" aria-label="TUKIO PRO — Accueil">
-        <span class="logo-mark">T</span>
-        <span class="logo-text">TUKIO <em>PRO</em></span>
-      </a>
-      <ul class="nav-links" role="list">
-        <li><a href="../home/index.html" class="nav-link">Accueil</a></li>
-        <li><a href="../e-voting/index.html" class="nav-link">E-Voting</a></li>
-        <li><a href="../crowdfunding/index.html" class="nav-link">Crowdfunding</a></li>
-        <li><a href="../corporate-ticketing/index.html" class="nav-link">Corporate</a></li>
-        <li><a href="../private-ticketing/index.html" class="nav-link active" aria-current="page">Événements Privés</a></li>
-      </ul>
-      <div class="nav-actions">
-        <a href="#contact" class="btn-primary">Créer mon événement</a>
-        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </button>
-      </div>
-    </nav>
-    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
-      <ul class="mobile-nav-links" role="list">
-        <li><a href="../home/index.html" class="mobile-nav-link">Accueil</a></li>
-        <li><a href="../e-voting/index.html" class="mobile-nav-link">E-Voting</a></li>
-        <li><a href="../crowdfunding/index.html" class="mobile-nav-link">Crowdfunding</a></li>
-        <li><a href="../corporate-ticketing/index.html" class="mobile-nav-link">Corporate</a></li>
-        <li><a href="../private-ticketing/index.html" class="mobile-nav-link">Événements Privés</a></li>
-        <li><a href="#contact" class="mobile-nav-link mobile-cta">Créer mon événement</a></li>
-      </ul>
-    </div>
-  </header>
-
-  <main id="main-content">
-
-    <section class="module-hero module-hero--private" aria-labelledby="hero-title">
-      <div class="module-hero-bg"></div>
-      <div class="module-hero-container">
-        <div class="module-tag">Module 04</div>
-        <h1 class="module-hero-title" id="hero-title">
-          Célébrez.<br>
-          <span class="accent">Inoubliablement.</span>
-        </h1>
-        <p class="module-hero-subtitle">
-          Mariage, anniversaire, baptême, cérémonie de remise de diplôme — chaque moment précieux mérite une organisation irréprochable. TUKIO PRO gère vos invités avec l'élégance que l'occasion exige.
-        </p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn-hero-primary">Organiser ma célébration</a>
-          <a href="#features" class="btn-hero-secondary">Découvrir les outils</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- TYPES D'ÉVÉNEMENTS PRIVÉS -->
-    <section class="usecases" aria-labelledby="priv-types-title">
-      <div class="section-container">
-        <div class="section-header">
-          <span class="section-eyebrow">Occasions spéciales</span>
-          <h2 class="section-title" id="priv-types-title">Chaque célébration<br>est unique.</h2>
-          <p class="section-desc">De la liste d'invités à la gestion des repas en passant par les confirmations de présence, nous gérons chaque détail pour que vous profitiez pleinement de votre jour.</p>
-        </div>
-        <div class="usecases-grid">
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">💍</div>
-            <h3>Mariages & Unions</h3>
-            <p>Gérez votre liste d'invités, les confirmations de présence, les régimes alimentaires et les tables d'honneur depuis un seul tableau de bord élégant.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🎂</div>
-            <h3>Anniversaires & Galas</h3>
-            <p>Créez une invitation digitale personnalisée, suivez les RSVP en temps réel et envoyez des rappels automatiques à vos invités.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">👶</div>
-            <h3>Baptêmes & Baby Shower</h3>
-            <p>Invitations sur mesure, gestion des cadeaux collectifs via une liste de naissance intégrée et confirmation de présence simplifiée.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🎓</div>
-            <h3>Cérémonies & Diplômes</h3>
-            <p>Remises de diplômes, ordinations, promotions — gérez les invitations familles et la logistique de placement avec précision.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🕊️</div>
-            <h3>Funérailles & Commémorations</h3>
-            <p>Avec tact et discrétion, gérez les convocations familiales, le livre d'or digital et la coordination des proches en ces moments difficiles.</p>
-          </div>
-          <div class="usecase-card reveal">
-            <div class="usecase-icon" aria-hidden="true">🎊</div>
-            <h3>Réunions de Famille</h3>
-            <p>Réunion de famille, retrouvailles de promotion, célébration associative — fédérez votre communauté autour d'un moment partagé.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="features" id="features" aria-labelledby="priv-features-title">
-      <div class="section-container">
-        <div class="section-header">
-          <span class="section-eyebrow">Fonctionnalités</span>
-          <h2 class="section-title" id="priv-features-title">Chaque détail,<br>pris en charge.</h2>
-        </div>
-        <div class="features-list">
-
-          <div class="feature-row reveal">
-            <div class="feature-content">
-              <span class="feature-number" aria-hidden="true">01</span>
-              <h3 class="feature-title">Invitation digitale personnalisée</h3>
-              <p class="feature-desc">Créez une invitation digitale à votre image : design sur mesure, photo de couple ou de famille, programme de l'événement, localisation et bouton RSVP intégré. Partageable par WhatsApp, SMS et email.</p>
-            </div>
-            <div class="feature-visual" aria-hidden="true">
-              <div class="feature-mock feature-mock--elegant">
-                <div class="mock-invite-header">
-                  <div class="mock-invite-deco" aria-hidden="true">✦</div>
-                  <span class="mock-invite-title">Mariage de</span>
-                  <span class="mock-invite-names">Aminata & David</span>
-                  <span class="mock-invite-date">Samedi 14 Juin 2025 · 15h00</span>
-                </div>
-                <div class="mock-invite-rsvp">
-                  <div class="mock-rsvp-yes">Je serai présent(e)</div>
-                  <div class="mock-rsvp-no">Je ne pourrai pas venir</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="feature-row feature-row--reverse reveal">
-            <div class="feature-content">
-              <span class="feature-number" aria-hidden="true">02</span>
-              <h3 class="feature-title">Gestion des RSVP & placement</h3>
-              <p class="feature-desc">Visualisez en temps réel qui a confirmé, qui n'a pas encore répondu, les régimes alimentaires et les besoins spéciaux. Créez votre plan de salle directement sur la plateforme.</p>
-            </div>
-            <div class="feature-visual" aria-hidden="true">
-              <div class="feature-mock">
-                <div class="mock-rsvp-stats">
-                  <div class="mock-rsvp-stat">
-                    <span class="mock-rsvp-count mock-rsvp-confirmed">87</span>
-                    <span class="mock-rsvp-label">Confirmés</span>
-                  </div>
-                  <div class="mock-rsvp-stat">
-                    <span class="mock-rsvp-count mock-rsvp-pending">34</span>
-                    <span class="mock-rsvp-label">En attente</span>
-                  </div>
-                  <div class="mock-rsvp-stat">
-                    <span class="mock-rsvp-count mock-rsvp-declined">8</span>
-                    <span class="mock-rsvp-label">Déclinés</span>
-                  </div>
-                </div>
-                <div class="mock-progress-track" style="margin-top:1rem">
-                  <div class="mock-progress-bar" style="width:67%"></div>
-                </div>
-                <p style="font-size:0.6875rem;color:#555;margin-top:0.375rem;">67% de réponses reçues</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="feature-row reveal">
-            <div class="feature-content">
-              <span class="feature-number" aria-hidden="true">03</span>
-              <h3 class="feature-title">Collecte de participation financière</h3>
-              <p class="feature-desc">Permettez à vos invités de contribuer financièrement à votre événement ou à votre liste de mariage directement depuis l'invitation. Mobile Money, carte, virement — tous les moyens de paiement acceptés.</p>
-            </div>
-            <div class="feature-visual" aria-hidden="true">
-              <div class="feature-mock">
-                <p style="font-size:0.75rem;color:#6A6A64;margin-bottom:0.875rem;">Liste de mariage</p>
-                <div class="mock-stat-row">
-                  <span class="mock-label">Voyage de noces</span>
-                  <span class="mock-value mock-value--gold">320 000 F</span>
-                </div>
-                <div class="mock-stat-row">
-                  <span class="mock-label">Électroménager</span>
-                  <span class="mock-value">185 000 F</span>
-                </div>
-                <div class="mock-stat-row">
-                  <span class="mock-label">Contributions reçues</span>
-                  <span class="mock-value mock-value--gold">44</span>
-                </div>
-                <div class="mock-btn" style="margin-top:0.75rem">Contribuer avec amour</div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- STATS -->
-    <section class="stats-section" aria-label="Statistiques événements privés">
-      <div class="stats-bg"></div>
-      <div class="section-container">
-        <div class="stats-grid" role="list">
-          <div class="stat-card" role="listitem">
-            <span class="stat-number" data-target="1100">0</span><span class="stat-suffix">+</span>
-            <p class="stat-label">Événements privés organisés</p>
-          </div>
-          <div class="stat-card" role="listitem">
-            <span class="stat-number" data-target="48000">0</span><span class="stat-suffix">+</span>
-            <p class="stat-label">Invitations envoyées</p>
-          </div>
-          <div class="stat-card" role="listitem">
-            <span class="stat-number" data-target="96">0</span><span class="stat-suffix">%</span>
-            <p class="stat-label">Taux de satisfaction des hôtes</p>
-          </div>
-          <div class="stat-card" role="listitem">
-            <span class="stat-number" data-target="78">0</span><span class="stat-suffix">%</span>
-            <p class="stat-label">Taux de réponse aux invitations</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TESTIMONIALS -->
-    <section class="testimonials" aria-label="Témoignages événements privés">
-      <div class="section-container">
-        <div class="section-header">
-          <span class="section-eyebrow">Ils nous ont fait confiance</span>
-          <h2 class="section-title">Des célébrations inoubliables.</h2>
-        </div>
-        <div class="testimonials-grid">
-          <blockquote class="testimonial-card reveal">
-            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
-            <p class="testimonial-text">"Notre mariage avec 250 invités, géré comme jamais. Les RSVP en temps réel nous ont évité les mauvaises surprises. Et la liste de mariage digitale a été adorée par nos proches."</p>
-            <footer class="testimonial-author">
-              <div class="author-avatar">AG</div>
-              <div class="author-info">
-                <cite class="author-name">Aminata & Gilles</cite>
-                <span class="author-role">Mariés · Abidjan, Côte d'Ivoire</span>
-              </div>
-            </footer>
-          </blockquote>
-          <blockquote class="testimonial-card testimonial-card--featured reveal">
-            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
-            <p class="testimonial-text">"L'invitation digitale pour les 50 ans de mon père était tellement élégante que beaucoup pensaient que c'était une vraie carte. Retour en larmes de joie de tous les invités."</p>
-            <footer class="testimonial-author">
-              <div class="author-avatar">YA</div>
-              <div class="author-info">
-                <cite class="author-name">Yasmine Ait-Aomar</cite>
-                <span class="author-role">Organisation fête de famille · Casablanca</span>
-              </div>
-            </footer>
-          </blockquote>
-          <blockquote class="testimonial-card reveal">
-            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
-            <p class="testimonial-text">"Pour le baptême de ma fille, j'avais 180 invités de 5 pays différents. Grâce à TUKIO PRO, les confirmations étaient automatiques et les contributions ont dépassé mes espérances."</p>
-            <footer class="testimonial-author">
-              <div class="author-avatar">NC</div>
-              <div class="author-info">
-                <cite class="author-name">Nadia Cissé</cite>
-                <span class="author-role">Cérémonie de baptême · Paris & Douala</span>
-              </div>
-            </footer>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="faq" aria-labelledby="faq-priv-title">
-      <div class="section-container">
-        <div class="section-header">
-          <span class="section-eyebrow">FAQ</span>
-          <h2 class="section-title" id="faq-priv-title">Questions sur les événements privés.</h2>
-        </div>
-        <div class="faq-list">
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" aria-controls="faq-pr1">
-              Mon événement privé est-il vraiment confidentiel ?
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer" id="faq-pr1" hidden>
-              <p>Absolument. Votre page d'invitation n'est accessible qu'aux personnes ayant reçu le lien privé. Elle n'est pas indexée par les moteurs de recherche. Vos données et celles de vos invités sont chiffrées et ne sont jamais partagées ou revendues.</p>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" aria-controls="faq-pr2">
-              Puis-je créer une liste de cadeaux ou de mariage sur la plateforme ?
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer" id="faq-pr2" hidden>
-              <p>Oui. Vous pouvez créer une liste de mariage ou de naissance directement intégrée à votre invitation. Vos invités peuvent contribuer financièrement en ligne, et vous suivez les montants reçus en temps réel depuis votre tableau de bord.</p>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" aria-controls="faq-pr3">
-              Comment mes invités à l'étranger peuvent-ils confirmer et payer ?
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer" id="faq-pr3" hidden>
-              <p>Nos invitations fonctionnent parfaitement depuis n'importe quel pays. Le RSVP est gratuit. Pour les contributions financières, nous acceptons les cartes internationales (Visa/Mastercard) ainsi que les virements bancaires. Vos proches de la diaspora peuvent vous rejoindre en quelques clics.</p>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" aria-controls="faq-pr4">
-              Quel est le nombre maximum d'invités gérable ?
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer" id="faq-pr4" hidden>
-              <p>Il n'y a pas de limite technique. Nous avons géré des événements privés de 10 à 800 invités. Pour les très grandes cérémonies, notre équipe vous accompagne personnellement dans la configuration afin que tout soit parfait.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta-section" id="contact" aria-labelledby="cta-priv-title">
-      <div class="cta-bg"></div>
-      <div class="section-container">
-        <div class="cta-content">
-          <span class="section-eyebrow section-eyebrow--gold">Votre grand jour mérite le meilleur</span>
-          <h2 class="cta-title" id="cta-priv-title">Créez une expérience<br>que vos invités n'oublieront pas.</h2>
-          <p class="cta-desc">Plus de 1 100 hôtes ont confié leur célébration à TUKIO PRO. Rejoignez-les.</p>
-          <div class="cta-form" role="form" aria-label="Formulaire événement privé">
-            <label for="cta-email" class="sr-only">Votre email</label>
-            <input type="email" id="cta-email" name="email" placeholder="Votre email" class="cta-input" autocomplete="email">
-            <button type="submit" class="cta-submit">Commencer gratuitement</button>
-          </div>
-          <p class="cta-note">Invitation digitale gratuite · Paiement uniquement sur contribution</p>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer" role="contentinfo">
-    <div class="footer-container">
-      <div class="footer-brand">
-        <a href="../home/index.html" class="footer-logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TUKIO PRO Événements Privés — Mariages, anniversaires, baptêmes et cérémonies. Offrez à vos invités une expérience d'inscription sur mesure et mémorable."
+    />
+    <meta
+      name="keywords"
+      content="billetterie mariage, gestion invités anniversaire, baptême, cérémonie privée, événement privé, carton d'invitation digital"
+    />
+    <title>Événements Privés — TUKIO PRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar" role="banner">
+      <nav class="nav-container" aria-label="Navigation principale">
+        <a
+          href="../index.html"
+          class="nav-logo"
+          aria-label="TUKIO PRO — Accueil"
+        >
           <span class="logo-mark">T</span>
           <span class="logo-text">TUKIO <em>PRO</em></span>
         </a>
-        <p class="footer-tagline">La plateforme événementielle<br>pensée pour l'Afrique et le monde.</p>
-      </div>
-      <nav class="footer-nav" aria-label="Footer">
-        <div class="footer-col">
-          <h3 class="footer-col-title">Modules</h3>
-          <ul role="list">
-            <li><a href="../e-voting/index.html" class="footer-link">E-Voting</a></li>
-            <li><a href="../crowdfunding/index.html" class="footer-link">Crowdfunding</a></li>
-            <li><a href="../corporate-ticketing/index.html" class="footer-link">Billetterie Corporate</a></li>
-            <li><a href="../private-ticketing/index.html" class="footer-link">Événements Privés</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h3 class="footer-col-title">Ressources</h3>
-          <ul role="list">
-            <li><a href="#" class="footer-link">FAQ</a></li>
-            <li><a href="#contact" class="footer-link">Contact</a></li>
-            <li><a href="#" class="footer-link">Documentation</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h3 class="footer-col-title">Légal</h3>
-          <ul role="list">
-            <li><a href="#" class="footer-link">Mentions légales</a></li>
-            <li><a href="#" class="footer-link">CGU</a></li>
-            <li><a href="#" class="footer-link">Confidentialité</a></li>
-          </ul>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html" class="nav-link">Accueil</a></li>
+          <li>
+            <a href="../e-voting/index.html" class="nav-link">E-Voting</a>
+          </li>
+          <li>
+            <a href="../crowdfunding/index.html" class="nav-link"
+              >Crowdfunding</a
+            >
+          </li>
+          <li>
+            <a href="../corporate-ticketing/index.html" class="nav-link"
+              >Corporate</a
+            >
+          </li>
+          <li>
+            <a
+              href="../private-ticketing/index.html"
+              class="nav-link active"
+              aria-current="page"
+              >Événements Privés</a
+            >
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#contact" class="btn-primary">Créer mon événement</a>
+          <button
+            class="hamburger"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
         </div>
       </nav>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2025 TUKIO PRO. Tous droits réservés.</p>
-      <p>Module Événements Privés — Célébrations sur mesure</p>
-    </div>
-  </footer>
+      <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <ul class="mobile-nav-links" role="list">
+          <li><a href="../index.html" class="mobile-nav-link">Accueil</a></li>
+          <li>
+            <a href="../e-voting/index.html" class="mobile-nav-link"
+              >E-Voting</a
+            >
+          </li>
+          <li>
+            <a href="../crowdfunding/index.html" class="mobile-nav-link"
+              >Crowdfunding</a
+            >
+          </li>
+          <li>
+            <a href="../corporate-ticketing/index.html" class="mobile-nav-link"
+              >Corporate</a
+            >
+          </li>
+          <li>
+            <a href="../private-ticketing/index.html" class="mobile-nav-link"
+              >Événements Privés</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="mobile-nav-link mobile-cta"
+              >Créer mon événement</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
 
-  <script src="script.js"></script>
-</body>
+    <main id="main-content">
+      <section
+        class="module-hero module-hero--private"
+        aria-labelledby="hero-title"
+      >
+        <div class="module-hero-bg"></div>
+        <div class="module-hero-container">
+          <div class="module-tag">Module 04</div>
+          <h1 class="module-hero-title" id="hero-title">
+            Célébrez.<br />
+            <span class="accent">Inoubliablement.</span>
+          </h1>
+          <p class="module-hero-subtitle">
+            Mariage, anniversaire, baptême, cérémonie de remise de diplôme —
+            chaque moment précieux mérite une organisation irréprochable. TUKIO
+            PRO gère vos invités avec l'élégance que l'occasion exige.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-hero-primary"
+              >Organiser ma célébration</a
+            >
+            <a href="#features" class="btn-hero-secondary"
+              >Découvrir les outils</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- TYPES D'ÉVÉNEMENTS PRIVÉS -->
+      <section class="usecases" aria-labelledby="priv-types-title">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-eyebrow">Occasions spéciales</span>
+            <h2 class="section-title" id="priv-types-title">
+              Chaque célébration<br />est unique.
+            </h2>
+            <p class="section-desc">
+              De la liste d'invités à la gestion des repas en passant par les
+              confirmations de présence, nous gérons chaque détail pour que vous
+              profitiez pleinement de votre jour.
+            </p>
+          </div>
+          <div class="usecases-grid">
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">💍</div>
+              <h3>Mariages & Unions</h3>
+              <p>
+                Gérez votre liste d'invités, les confirmations de présence, les
+                régimes alimentaires et les tables d'honneur depuis un seul
+                tableau de bord élégant.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🎂</div>
+              <h3>Anniversaires & Galas</h3>
+              <p>
+                Créez une invitation digitale personnalisée, suivez les RSVP en
+                temps réel et envoyez des rappels automatiques à vos invités.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">👶</div>
+              <h3>Baptêmes & Baby Shower</h3>
+              <p>
+                Invitations sur mesure, gestion des cadeaux collectifs via une
+                liste de naissance intégrée et confirmation de présence
+                simplifiée.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🎓</div>
+              <h3>Cérémonies & Diplômes</h3>
+              <p>
+                Remises de diplômes, ordinations, promotions — gérez les
+                invitations familles et la logistique de placement avec
+                précision.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🕊️</div>
+              <h3>Funérailles & Commémorations</h3>
+              <p>
+                Avec tact et discrétion, gérez les convocations familiales, le
+                livre d'or digital et la coordination des proches en ces moments
+                difficiles.
+              </p>
+            </div>
+            <div class="usecase-card reveal">
+              <div class="usecase-icon" aria-hidden="true">🎊</div>
+              <h3>Réunions de Famille</h3>
+              <p>
+                Réunion de famille, retrouvailles de promotion, célébration
+                associative — fédérez votre communauté autour d'un moment
+                partagé.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section
+        class="features"
+        id="features"
+        aria-labelledby="priv-features-title"
+      >
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-eyebrow">Fonctionnalités</span>
+            <h2 class="section-title" id="priv-features-title">
+              Chaque détail,<br />pris en charge.
+            </h2>
+          </div>
+          <div class="features-list">
+            <div class="feature-row reveal">
+              <div class="feature-content">
+                <span class="feature-number" aria-hidden="true">01</span>
+                <h3 class="feature-title">Invitation digitale personnalisée</h3>
+                <p class="feature-desc">
+                  Créez une invitation digitale à votre image : design sur
+                  mesure, photo de couple ou de famille, programme de
+                  l'événement, localisation et bouton RSVP intégré. Partageable
+                  par WhatsApp, SMS et email.
+                </p>
+              </div>
+              <div class="feature-visual" aria-hidden="true">
+                <div class="feature-mock feature-mock--elegant">
+                  <div class="mock-invite-header">
+                    <div class="mock-invite-deco" aria-hidden="true">✦</div>
+                    <span class="mock-invite-title">Mariage de</span>
+                    <span class="mock-invite-names">Aminata & David</span>
+                    <span class="mock-invite-date"
+                      >Samedi 14 Juin 2025 · 15h00</span
+                    >
+                  </div>
+                  <div class="mock-invite-rsvp">
+                    <div class="mock-rsvp-yes">Je serai présent(e)</div>
+                    <div class="mock-rsvp-no">Je ne pourrai pas venir</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-row feature-row--reverse reveal">
+              <div class="feature-content">
+                <span class="feature-number" aria-hidden="true">02</span>
+                <h3 class="feature-title">Gestion des RSVP & placement</h3>
+                <p class="feature-desc">
+                  Visualisez en temps réel qui a confirmé, qui n'a pas encore
+                  répondu, les régimes alimentaires et les besoins spéciaux.
+                  Créez votre plan de salle directement sur la plateforme.
+                </p>
+              </div>
+              <div class="feature-visual" aria-hidden="true">
+                <div class="feature-mock">
+                  <div class="mock-rsvp-stats">
+                    <div class="mock-rsvp-stat">
+                      <span class="mock-rsvp-count mock-rsvp-confirmed"
+                        >87</span
+                      >
+                      <span class="mock-rsvp-label">Confirmés</span>
+                    </div>
+                    <div class="mock-rsvp-stat">
+                      <span class="mock-rsvp-count mock-rsvp-pending">34</span>
+                      <span class="mock-rsvp-label">En attente</span>
+                    </div>
+                    <div class="mock-rsvp-stat">
+                      <span class="mock-rsvp-count mock-rsvp-declined">8</span>
+                      <span class="mock-rsvp-label">Déclinés</span>
+                    </div>
+                  </div>
+                  <div class="mock-progress-track" style="margin-top: 1rem">
+                    <div class="mock-progress-bar" style="width: 67%"></div>
+                  </div>
+                  <p
+                    style="
+                      font-size: 0.6875rem;
+                      color: #555;
+                      margin-top: 0.375rem;
+                    "
+                  >
+                    67% de réponses reçues
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-row reveal">
+              <div class="feature-content">
+                <span class="feature-number" aria-hidden="true">03</span>
+                <h3 class="feature-title">
+                  Collecte de participation financière
+                </h3>
+                <p class="feature-desc">
+                  Permettez à vos invités de contribuer financièrement à votre
+                  événement ou à votre liste de mariage directement depuis
+                  l'invitation. Mobile Money, carte, virement — tous les moyens
+                  de paiement acceptés.
+                </p>
+              </div>
+              <div class="feature-visual" aria-hidden="true">
+                <div class="feature-mock">
+                  <p
+                    style="
+                      font-size: 0.75rem;
+                      color: #6a6a64;
+                      margin-bottom: 0.875rem;
+                    "
+                  >
+                    Liste de mariage
+                  </p>
+                  <div class="mock-stat-row">
+                    <span class="mock-label">Voyage de noces</span>
+                    <span class="mock-value mock-value--gold">320 000 F</span>
+                  </div>
+                  <div class="mock-stat-row">
+                    <span class="mock-label">Électroménager</span>
+                    <span class="mock-value">185 000 F</span>
+                  </div>
+                  <div class="mock-stat-row">
+                    <span class="mock-label">Contributions reçues</span>
+                    <span class="mock-value mock-value--gold">44</span>
+                  </div>
+                  <div class="mock-btn" style="margin-top: 0.75rem">
+                    Contribuer avec amour
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section
+        class="stats-section"
+        aria-label="Statistiques événements privés"
+      >
+        <div class="stats-bg"></div>
+        <div class="section-container">
+          <div class="stats-grid" role="list">
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" data-target="1100">0</span
+              ><span class="stat-suffix">+</span>
+              <p class="stat-label">Événements privés organisés</p>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" data-target="48000">0</span
+              ><span class="stat-suffix">+</span>
+              <p class="stat-label">Invitations envoyées</p>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" data-target="96">0</span
+              ><span class="stat-suffix">%</span>
+              <p class="stat-label">Taux de satisfaction des hôtes</p>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" data-target="78">0</span
+              ><span class="stat-suffix">%</span>
+              <p class="stat-label">Taux de réponse aux invitations</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="testimonials" aria-label="Témoignages événements privés">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-eyebrow">Ils nous ont fait confiance</span>
+            <h2 class="section-title">Des célébrations inoubliables.</h2>
+          </div>
+          <div class="testimonials-grid">
+            <blockquote class="testimonial-card reveal">
+              <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="testimonial-text">
+                "Notre mariage avec 250 invités, géré comme jamais. Les RSVP en
+                temps réel nous ont évité les mauvaises surprises. Et la liste
+                de mariage digitale a été adorée par nos proches."
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">AG</div>
+                <div class="author-info">
+                  <cite class="author-name">Aminata & Gilles</cite>
+                  <span class="author-role"
+                    >Mariés · Abidjan, Côte d'Ivoire</span
+                  >
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote
+              class="testimonial-card testimonial-card--featured reveal"
+            >
+              <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="testimonial-text">
+                "L'invitation digitale pour les 50 ans de mon père était
+                tellement élégante que beaucoup pensaient que c'était une vraie
+                carte. Retour en larmes de joie de tous les invités."
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">YA</div>
+                <div class="author-info">
+                  <cite class="author-name">Yasmine Ait-Aomar</cite>
+                  <span class="author-role"
+                    >Organisation fête de famille · Casablanca</span
+                  >
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card reveal">
+              <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="testimonial-text">
+                "Pour le baptême de ma fille, j'avais 180 invités de 5 pays
+                différents. Grâce à TUKIO PRO, les confirmations étaient
+                automatiques et les contributions ont dépassé mes espérances."
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">NC</div>
+                <div class="author-info">
+                  <cite class="author-name">Nadia Cissé</cite>
+                  <span class="author-role"
+                    >Cérémonie de baptême · Paris & Douala</span
+                  >
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq" aria-labelledby="faq-priv-title">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-eyebrow">FAQ</span>
+            <h2 class="section-title" id="faq-priv-title">
+              Questions sur les événements privés.
+            </h2>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-pr1"
+              >
+                Mon événement privé est-il vraiment confidentiel ?
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" id="faq-pr1" hidden>
+                <p>
+                  Absolument. Votre page d'invitation n'est accessible qu'aux
+                  personnes ayant reçu le lien privé. Elle n'est pas indexée par
+                  les moteurs de recherche. Vos données et celles de vos invités
+                  sont chiffrées et ne sont jamais partagées ou revendues.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-pr2"
+              >
+                Puis-je créer une liste de cadeaux ou de mariage sur la
+                plateforme ?
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" id="faq-pr2" hidden>
+                <p>
+                  Oui. Vous pouvez créer une liste de mariage ou de naissance
+                  directement intégrée à votre invitation. Vos invités peuvent
+                  contribuer financièrement en ligne, et vous suivez les
+                  montants reçus en temps réel depuis votre tableau de bord.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-pr3"
+              >
+                Comment mes invités à l'étranger peuvent-ils confirmer et payer
+                ?
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" id="faq-pr3" hidden>
+                <p>
+                  Nos invitations fonctionnent parfaitement depuis n'importe
+                  quel pays. Le RSVP est gratuit. Pour les contributions
+                  financières, nous acceptons les cartes internationales
+                  (Visa/Mastercard) ainsi que les virements bancaires. Vos
+                  proches de la diaspora peuvent vous rejoindre en quelques
+                  clics.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-pr4"
+              >
+                Quel est le nombre maximum d'invités gérable ?
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" id="faq-pr4" hidden>
+                <p>
+                  Il n'y a pas de limite technique. Nous avons géré des
+                  événements privés de 10 à 800 invités. Pour les très grandes
+                  cérémonies, notre équipe vous accompagne personnellement dans
+                  la configuration afin que tout soit parfait.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="cta-section"
+        id="contact"
+        aria-labelledby="cta-priv-title"
+      >
+        <div class="cta-bg"></div>
+        <div class="section-container">
+          <div class="cta-content">
+            <span class="section-eyebrow section-eyebrow--gold"
+              >Votre grand jour mérite le meilleur</span
+            >
+            <h2 class="cta-title" id="cta-priv-title">
+              Créez une expérience<br />que vos invités n'oublieront pas.
+            </h2>
+            <p class="cta-desc">
+              Plus de 1 100 hôtes ont confié leur célébration à TUKIO PRO.
+              Rejoignez-les.
+            </p>
+            <div
+              class="cta-form"
+              role="form"
+              aria-label="Formulaire événement privé"
+            >
+              <label for="cta-email" class="sr-only">Votre email</label>
+              <input
+                type="email"
+                id="cta-email"
+                name="email"
+                placeholder="Votre email"
+                class="cta-input"
+                autocomplete="email"
+              />
+              <button type="submit" class="cta-submit">
+                Commencer gratuitement
+              </button>
+            </div>
+            <p class="cta-note">
+              Invitation digitale gratuite · Paiement uniquement sur
+              contribution
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="../index.html" class="footer-logo">
+            <span class="logo-mark">T</span>
+            <span class="logo-text">TUKIO <em>PRO</em></span>
+          </a>
+          <p class="footer-tagline">
+            La plateforme événementielle<br />pensée pour l'Afrique et le monde.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <div class="footer-col">
+            <h3 class="footer-col-title">Modules</h3>
+            <ul role="list">
+              <li>
+                <a href="../e-voting/index.html" class="footer-link"
+                  >E-Voting</a
+                >
+              </li>
+              <li>
+                <a href="../crowdfunding/index.html" class="footer-link"
+                  >Crowdfunding</a
+                >
+              </li>
+              <li>
+                <a href="../corporate-ticketing/index.html" class="footer-link"
+                  >Billetterie Corporate</a
+                >
+              </li>
+              <li>
+                <a href="../private-ticketing/index.html" class="footer-link"
+                  >Événements Privés</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-col-title">Ressources</h3>
+            <ul role="list">
+              <li><a href="#" class="footer-link">FAQ</a></li>
+              <li><a href="#contact" class="footer-link">Contact</a></li>
+              <li><a href="#" class="footer-link">Documentation</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-col-title">Légal</h3>
+            <ul role="list">
+              <li><a href="#" class="footer-link">Mentions légales</a></li>
+              <li><a href="#" class="footer-link">CGU</a></li>
+              <li><a href="#" class="footer-link">Confidentialité</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 TUKIO PRO. Tous droits réservés.</p>
+        <p>Module Événements Privés — Célébrations sur mesure</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
