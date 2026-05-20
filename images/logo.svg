@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40">
+  <rect width="36" height="36" x="2" y="2" rx="4" fill="#BCA402"/>
+  <text x="20" y="26" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="18" fill="#0A0A0A">T</text>
+  <text x="50" y="26" font-family="sans-serif" font-weight="600" font-size="14" fill="#F0EFE8" letter-spacing="3">TUKIO</text>
+  <text x="103" y="26" font-family="sans-serif" font-weight="600" font-size="14" fill="#BCA402" letter-spacing="3">PRO</text>
+</svg>

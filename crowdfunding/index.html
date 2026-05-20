@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TUKIO PRO Crowdfunding — Lancez vos campagnes de collecte de fonds avec une page dédiée, des niveaux de contribution et un tableau de bord en temps réel.">
+  <meta name="keywords" content="crowdfunding Afrique, collecte de fonds en ligne, campagne financement participatif, levée de fonds">
+  <title>Crowdfunding — TUKIO PRO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar" role="banner">
+    <nav class="nav-container" aria-label="Navigation principale">
+      <a href="../home/index.html" class="nav-logo" aria-label="TUKIO PRO — Accueil">
+        <span class="logo-mark">T</span>
+        <span class="logo-text">TUKIO <em>PRO</em></span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="../home/index.html" class="nav-link">Accueil</a></li>
+        <li><a href="../e-voting/index.html" class="nav-link">E-Voting</a></li>
+        <li><a href="../crowdfunding/index.html" class="nav-link active" aria-current="page">Crowdfunding</a></li>
+        <li><a href="../corporate-ticketing/index.html" class="nav-link">Corporate</a></li>
+        <li><a href="../private-ticketing/index.html" class="nav-link">Événements Privés</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#contact" class="btn-primary">Lancer ma campagne</a>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul class="mobile-nav-links" role="list">
+        <li><a href="../home/index.html" class="mobile-nav-link">Accueil</a></li>
+        <li><a href="../e-voting/index.html" class="mobile-nav-link">E-Voting</a></li>
+        <li><a href="../crowdfunding/index.html" class="mobile-nav-link">Crowdfunding</a></li>
+        <li><a href="../corporate-ticketing/index.html" class="mobile-nav-link">Corporate</a></li>
+        <li><a href="../private-ticketing/index.html" class="mobile-nav-link">Événements Privés</a></li>
+        <li><a href="#contact" class="mobile-nav-link mobile-cta">Lancer ma campagne</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="module-hero" aria-labelledby="hero-title">
+      <div class="module-hero-bg"></div>
+      <div class="module-hero-container">
+        <div class="module-tag">Module 02</div>
+        <h1 class="module-hero-title" id="hero-title">
+          Crowdfunding<br>
+          <span class="accent">qui convertit.</span>
+        </h1>
+        <p class="module-hero-subtitle">
+          Lancez votre campagne de financement participatif en quelques minutes. Page dédiée, niveaux de contribution, notifications automatiques et tableau de bord en temps réel pour suivre chaque euro collecté.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-hero-primary">Créer ma campagne</a>
+          <a href="#features" class="btn-hero-secondary">Comment ça marche</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TYPES DE CAMPAGNES -->
+    <section class="usecases" aria-labelledby="types-title">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">Cas d'usage</span>
+          <h2 class="section-title" id="types-title">Pour toutes les causes.</h2>
+          <p class="section-desc">Qu'il s'agisse d'un projet entrepreneurial, d'une urgence humanitaire ou d'un rêve personnel, TUKIO PRO vous donne les outils pour mobiliser votre communauté.</p>
+        </div>
+        <div class="usecases-grid">
+          <div class="usecase-card reveal">
+            <div class="usecase-icon" aria-hidden="true">🚀</div>
+            <h3>Projets Entrepreneuriaux</h3>
+            <p>Financez le lancement de votre startup, votre prototype ou votre première production avec l'aide de votre réseau et d'inconnus convaincus.</p>
+          </div>
+          <div class="usecase-card reveal">
+            <div class="usecase-icon" aria-hidden="true">🎨</div>
+            <h3>Projets Créatifs</h3>
+            <p>Albums musicaux, films indépendants, expositions artistiques — donnez vie à votre vision grâce au soutien de votre communauté culturelle.</p>
+          </div>
+          <div class="usecase-card reveal">
+            <div class="usecase-icon" aria-hidden="true">🏥</div>
+            <h3>Urgences & Solidarité</h3>
+            <p>Frais médicaux, reconstruction après sinistre, soutien à une famille — mobilisez rapidement autour d'une cause urgente et humaine.</p>
+          </div>
+          <div class="usecase-card reveal">
+            <div class="usecase-icon" aria-hidden="true">📚</div>
+            <h3>Éducation & Formation</h3>
+            <p>Bourses d'études, financement de formations, construction d'infrastructures scolaires — investissez dans le capital humain de demain.</p>
+          </div>
+          <div class="usecase-card reveal">
+            <div class="usecase-icon" aria-hidden="true">🌱</div>
+            <h3>Impact Social & Écologie</h3>
+            <p>Associations, ONG, projets environnementaux — collectez des fonds de manière transparente et donnez confiance à vos soutiens.</p>
+          </div>
+          <div class="usecase-card reveal">
+            <div class="usecase-icon" aria-hidden="true">🎉</div>
+            <h3>Événements Communautaires</h3>
+            <p>Festival de quartier, célébration culturelle, tournoi sportif — fédérez votre communauté autour d'un financement collectif participatif.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">Fonctionnalités</span>
+          <h2 class="section-title" id="features-title">Une plateforme pensée<br>pour la collecte.</h2>
+        </div>
+        <div class="features-list">
+
+          <div class="feature-row reveal">
+            <div class="feature-content">
+              <span class="feature-number" aria-hidden="true">01</span>
+              <h3 class="feature-title">Page campagne personnalisée</h3>
+              <p class="feature-desc">Créez une landing page dédiée à votre cause : texte de présentation, vidéo, galerie photos, objectif financier avec barre de progression live, et lien de partage unique.</p>
+            </div>
+            <div class="feature-visual" aria-hidden="true">
+              <div class="feature-mock">
+                <div class="mock-progress-label">
+                  <span>Objectif atteint à</span>
+                  <span class="mock-value--gold">73%</span>
+                </div>
+                <div class="mock-progress-track">
+                  <div class="mock-progress-bar" style="width:73%"></div>
+                </div>
+                <div class="mock-progress-meta">
+                  <span>1 460 000 FCFA collectés</span>
+                  <span>sur 2 000 000 FCFA</span>
+                </div>
+                <div class="mock-btn">Soutenir ce projet</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-row feature-row--reverse reveal">
+            <div class="feature-content">
+              <span class="feature-number" aria-hidden="true">02</span>
+              <h3 class="feature-title">Niveaux de contribution</h3>
+              <p class="feature-desc">Proposez des paliers de don avec contreparties : accès anticipé, mention dans les crédits, goodies exclusifs. Maximisez l'engagement et la valeur perçue de chaque contribution.</p>
+            </div>
+            <div class="feature-visual" aria-hidden="true">
+              <div class="feature-mock">
+                <div class="mock-tier">
+                  <span class="mock-tier-price">2 000 F</span>
+                  <span class="mock-tier-name">Soutien Bronze</span>
+                  <span class="mock-tier-desc">Votre nom dans les remerciements</span>
+                </div>
+                <div class="mock-tier mock-tier--active">
+                  <span class="mock-tier-price">10 000 F</span>
+                  <span class="mock-tier-name">Soutien Or ✦</span>
+                  <span class="mock-tier-desc">Accès prioritaire + goodies</span>
+                </div>
+                <div class="mock-tier">
+                  <span class="mock-tier-price">50 000 F</span>
+                  <span class="mock-tier-name">Soutien Platinum</span>
+                  <span class="mock-tier-desc">Co-créateur + visibilité totale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-row reveal">
+            <div class="feature-content">
+              <span class="feature-number" aria-hidden="true">03</span>
+              <h3 class="feature-title">Relances automatiques</h3>
+              <p class="feature-desc">Notre système envoie automatiquement des rappels ciblés par SMS et email aux personnes qui ont visité votre page sans contribuer. Récupérez jusqu'à 40% de vos abandons.</p>
+            </div>
+            <div class="feature-visual" aria-hidden="true">
+              <div class="feature-mock">
+                <div class="mock-stat-row">
+                  <span class="mock-label">Taux de conversion</span>
+                  <span class="mock-value mock-value--gold">34%</span>
+                </div>
+                <div class="mock-stat-row">
+                  <span class="mock-label">Relances envoyées</span>
+                  <span class="mock-value">1 247</span>
+                </div>
+                <div class="mock-stat-row">
+                  <span class="mock-label">Conversions relance</span>
+                  <span class="mock-value">318</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section" aria-label="Statistiques crowdfunding">
+      <div class="stats-bg"></div>
+      <div class="section-container">
+        <div class="stats-grid" role="list">
+          <div class="stat-card" role="listitem">
+            <span class="stat-number" data-target="420">0</span><span class="stat-suffix">+</span>
+            <p class="stat-label">Campagnes financées</p>
+          </div>
+          <div class="stat-card" role="listitem">
+            <span class="stat-number" data-target="4200000">0</span>
+            <p class="stat-label">FCFA collectés au total</p>
+          </div>
+          <div class="stat-card" role="listitem">
+            <span class="stat-number" data-target="140">0</span><span class="stat-suffix">%</span>
+            <p class="stat-label">Dépassement moyen d'objectif</p>
+          </div>
+          <div class="stat-card" role="listitem">
+            <span class="stat-number" data-target="72">0</span><span class="stat-suffix">h</span>
+            <p class="stat-label">Délai moyen premier virement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" aria-label="Témoignages crowdfunding">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">Succès stories</span>
+          <h2 class="section-title">Ils ont atteint leurs objectifs.</h2>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+            <p class="testimonial-text">"Notre campagne pour financer l'album a dépassé l'objectif de 60%. Les relances automatiques ont vraiment fait la différence sur les derniers jours."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar">LM</div>
+              <div class="author-info">
+                <cite class="author-name">Lena Mbaye</cite>
+                <span class="author-role">Artiste musicale, Dakar</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card testimonial-card--featured reveal">
+            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+            <p class="testimonial-text">"3 millions de FCFA collectés en 3 semaines pour construire une salle de classe. La transparence de la plateforme a rassuré tous nos donateurs."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar">EO</div>
+              <div class="author-info">
+                <cite class="author-name">Emmanuel Otieno</cite>
+                <span class="author-role">Fondateur ONG EduAfrica</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+            <p class="testimonial-text">"Les niveaux de contribution ont transformé nos donateurs en vrais ambassadeurs. Certains ont partagé notre campagne à plus de 200 personnes."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar">CF</div>
+              <div class="author-info">
+                <cite class="author-name">Carole Fotso</cite>
+                <span class="author-role">Co-fondatrice, TechYouth Cameroun</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" aria-labelledby="faq-cf-title">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">FAQ</span>
+          <h2 class="section-title" id="faq-cf-title">Vos questions sur le crowdfunding.</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-cf1">
+              Est-ce que je reçois les fonds même si l'objectif n'est pas atteint ?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-cf1" hidden>
+              <p>Vous choisissez le modèle de collecte : "tout ou rien" (vous recevez les fonds uniquement si l'objectif est atteint) ou "garder ce qui est collecté" (vous recevez toutes les contributions quelle que soit la somme). Les deux options sont disponibles lors de la création de votre campagne.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-cf2">
+              Quelle commission prend TUKIO PRO sur les collectes ?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-cf2" hidden>
+              <p>Notre commission est prélevée uniquement sur les montants effectivement collectés. Aucun frais fixe, aucun abonnement. Contactez-nous pour connaître le taux applicable à votre type de campagne — il varie selon le volume et le secteur d'activité.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-cf3">
+              Puis-je accepter des contributions depuis l'étranger ?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-cf3" hidden>
+              <p>Oui. TUKIO PRO accepte les paiements internationaux via carte bancaire (Visa/Mastercard) et des solutions locales dans plus de 40 pays. Votre diaspora peut vous soutenir depuis n'importe quel continent.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-cf4">
+              Comment mes donateurs sont-ils informés de l'avancement ?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-cf4" hidden>
+              <p>Vous pouvez publier des mises à jour directement sur votre page de campagne. Vos contributeurs reçoivent automatiquement une notification à chaque mise à jour que vous publiez. La transparence renforce la confiance et fidélise les soutiens.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact" aria-labelledby="cta-cf-title">
+      <div class="cta-bg"></div>
+      <div class="section-container">
+        <div class="cta-content">
+          <span class="section-eyebrow section-eyebrow--gold">Prêt à collecter ?</span>
+          <h2 class="cta-title" id="cta-cf-title">Votre campagne mérite<br>d'être financée.</h2>
+          <p class="cta-desc">Rejoignez les 420+ porteurs de projets qui ont fait confiance à TUKIO PRO pour atteindre leurs objectifs.</p>
+          <div class="cta-form" role="form" aria-label="Formulaire crowdfunding">
+            <label for="cta-email" class="sr-only">Votre email professionnel</label>
+            <input type="email" id="cta-email" name="email" placeholder="Votre email professionnel" class="cta-input" autocomplete="email">
+            <button type="submit" class="cta-submit">Lancer ma campagne</button>
+          </div>
+          <p class="cta-note">Création gratuite · Commission uniquement sur le succès</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="../home/index.html" class="footer-logo">
+          <span class="logo-mark">T</span>
+          <span class="logo-text">TUKIO <em>PRO</em></span>
+        </a>
+        <p class="footer-tagline">La plateforme événementielle<br>pensée pour l'Afrique et le monde.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <div class="footer-col">
+          <h3 class="footer-col-title">Modules</h3>
+          <ul role="list">
+            <li><a href="../e-voting/index.html" class="footer-link">E-Voting</a></li>
+            <li><a href="../crowdfunding/index.html" class="footer-link">Crowdfunding</a></li>
+            <li><a href="../corporate-ticketing/index.html" class="footer-link">Billetterie Corporate</a></li>
+            <li><a href="../private-ticketing/index.html" class="footer-link">Événements Privés</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col-title">Ressources</h3>
+          <ul role="list">
+            <li><a href="#" class="footer-link">FAQ</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+            <li><a href="#" class="footer-link">Documentation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col-title">Légal</h3>
+          <ul role="list">
+            <li><a href="#" class="footer-link">Mentions légales</a></li>
+            <li><a href="#" class="footer-link">CGU</a></li>
+            <li><a href="#" class="footer-link">Confidentialité</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 TUKIO PRO. Tous droits réservés.</p>
+      <p>Module Crowdfunding — Financement participatif</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
