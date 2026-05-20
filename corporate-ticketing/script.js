@@ -82,7 +82,7 @@
     }),
     { threshold: 0.5 }
   );
-  
+
   document.querySelectorAll('.stat-number[data-target]').forEach(el => counterObs.observe(el));
 
   /* CTA form */
